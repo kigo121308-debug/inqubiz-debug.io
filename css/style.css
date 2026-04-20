@@ -175,8 +175,50 @@ main {
   width: 100%;
 }
 
+#WhatisinQubiz {
+  padding: 20px 15px 25px;
+}
+
+#WhatisinQubiz img {
+  width: 100%;
+}
+
+#Ourmission {
+  padding: 25px 15px 50px;
+  background-color: #e7e7e7;
+}
+
+#mission_list li {
+  margin: 10px 0;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+
+.mission_list_num {
+  padding: 10px 0;
+  /* border-right: 1px solid #000; */
+}
+
+#Department {
+  padding: 25px 25px;
+}
+
+#Department article {
+  margin-bottom: 10px;
+}
+
+#Department article figure img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid #000;
+  border-radius: 2px;
+  vertical-align: bottom;
+  margin-top: 20px;
+}
+
 #information {
-  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -204,49 +246,38 @@ main {
   color: #000;
 }
 
-#WhatisinQubiz {
-  padding: 20px 15px 50px;
-}
-
-#WhatisinQubiz img {
-  width: 100%;
-}
-
-#Ourmission {
-  padding: 50px 15px 50px;
+#FAQ {
+  padding: 15px 15px 50px;
   background-color: #e7e7e7;
 }
 
-#mission_list li {
-  margin: 10px 0;
-  border: 2px solid #000;
-  border-radius: 3px;
-}
-
-
-.mission_list_num {
-  padding: 10px 0;
-  border-right: 1px solid #000;
+#sns_links {
+  padding: 40px;
+  text-align: center;
+  background-color: #8a8a8a;
   color: #fff;
 }
 
-#Department {
-  padding: 25px 15px 25px;
+#sns_links img {
+  height: 35px;
 }
 
-#Department article {
-  margin-bottom: 10px;
+#sns_links ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#Department article figure img {
+#sns_links ul li {
+  display: inline-block;
+}
+
+#Management {
   width: 100%;
-  vertical-align: bottom;
-  margin-top: 20px;
-}
-
-#FAQ {
-  padding: 15pxpx 15px 50px;
-  background-color: #e7e7e7;
+  padding: 10px 10px;
+  background-color: #000;
+  color: #fff;
+  /* border-bottom: .5px solid #fff; */
 }
 
 #Management h2 {
@@ -267,7 +298,7 @@ footer {
 footer ul li {
   display: inline-block;
   justify-content: space-between;
-  padding: 10px 10px
+  padding: 10px 10px;
 }
 
 footer ul li a {
