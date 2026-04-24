@@ -140,6 +140,7 @@ h1,h2,p {
 header {
   position: relative;
   height: 60px;
+  border-bottom: solid 1px #cccccc;
 }
 
 .logo {
@@ -161,35 +162,27 @@ header nav {
   display: none;
 }
 
-#key_visual {
-  width: 100%;
-  position: relative;
-  display: inline-block;
-  line-height: 0;
-}
-
-#key_visual video {
-  width: 100%;
-  height: auto;
-}
-
-#key_visual video::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-}
-
 main {
   width: 100%;
 }
 
-#WhatisinQubiz {
-  padding: 20px 15px 25px;
+
+#key_visual {
+  padding: 10px;
+}
+
+#key_visual video {
+  width: 100%;
+  border-radius: 13px;
+}
+
+#whatisinQubiz {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#WhatisinQubiz p:last-of-type {
+  text-align: left;
 }
 
 #WhatisinQubiz img {
@@ -197,135 +190,6 @@ main {
 }
 
 #Ourmission {
-  padding: 25px 15px 50px;
-  background-color: #e7e7e7;
-}
-
-#mission_list li {
-  margin: 10px 0;
-  border: 2px solid #000;
-  border-radius: 3px;
-}
-
-
-.mission_list_num {
-  padding: 10px 0;
-  /* border-right: 1px solid #000; */
-}
-
-#Department {
-  padding: 25px 25px;
-}
-
-#Department article {
-  margin-bottom: 10px;
-}
-
-#Department article figure img {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 3px solid #000;
-  border-radius: 2px;
-  vertical-align: bottom;
-  margin-top: 20px;
-}
-
-#information {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#information ul li {
-  padding: 25px 25px;
-  border-top: 1px solid #dee3e6;
-  box-sizing: border-box;
-}
-#information ul li:first-child {
-  margin-top: 10px;
-}
-
-#information ul li:last-child {
-  border-bottom: 1px solid #dee3e6;
-}
-
-#information ul li p {
-  text-align: left;
-  padding-top: 5px;
-}
-
-#information ul li a {
-  display: block;
-  color: #000;
-}
-
-.Entry a p {
-color: #fff;
-background-color: #000;
-}
-
-#FAQ {
-  padding: 15px 15px 50px;
-  background-color: #e7e7e7;
-}
-
-#sns_links {
-  padding: 40px;
-  text-align: center;
-  background-color: #8a8a8a;
-  color: #fff;
-}
-
-#sns_links img {
-  height: 35px;
-}
-
-#sns_links ul {
-  padding: 20px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#sns_links ul li {
-  display: inline-block;
-}
-
-#Management {
-  width: 100%;
-  padding: 10px 10px;
-  background-color: #000;
-  color: #fff;
-  /* border-bottom: .5px solid #fff; */
-}
-
-#Management h2 {
-  text-align: center;
-}
-
-#Management ul li + li {
-  padding-top: 10px;
-}
-
-footer {
-  width: 100%;
-  padding:10px 10px;
-  background-color: #000;
-  text-align: center;
-}
-
-footer ul li {
-  display: inline-block;
-  justify-content: space-between;
-  padding: 10px 10px;
-}
-
-footer ul li a {
-  color: #fff;
-}
-
-footer p small {
-  height: 30px;
-  font-size: 10px;
-  line-height: 30px;
-  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
 }
