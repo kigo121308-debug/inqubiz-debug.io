@@ -247,7 +247,10 @@ main {
 }
 
 .Entry_button {
-  padding-bottom: 15px;
+  margin-top: 15px;
+  padding-bottom: 3px;
+  border: 1px solid #000;
+  border-radius: 43px;
 }
 
 .Entry_button p {
@@ -259,7 +262,10 @@ main {
 }
 
 .HowtoJudge_button {
-  padding-bottom: 15px;
+  margin-top: 15px;
+  padding-bottom: 3px;
+  border: 1px solid #000;
+  border-radius: 43px;
 }
 
 .HowtoJudge_button p {
@@ -271,6 +277,7 @@ main {
 }
 
 #FAQ {
+  margin-top: 15px;
   background-color: #cccccc;
   padding: 30px 15px 30px 15px;
 }
@@ -340,7 +347,13 @@ main {
   padding: 40px 20px 40px 20px;
 }
 
-#Entry2 p {
+.Entry2_button {
+  border: 1px solid #fff;
+  border-radius: 43px;
+  padding-bottom: 3px;
+}
+
+.Entry2_button p {
   border: 1px solid #000;
   border-radius: 43px;
   background-color: #fff;
