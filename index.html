@@ -85,20 +85,22 @@
       <section id="Department">
         <h1>部門分け</h1>
         <p><b>Departmentaln division</b></p>
-        <article>
-          <figure><img src="images/INQBIZcompetitionlogo.png" alt="ビジネス部門"></figure>
-          <div class="Department_exp">
-            <h2>ビジネス部門</h2>
-            <p>未来を担う高校生の起業家精神を推進する。</p>
-          </div>
-        </article>
-        <article>
-          <figure><img src="images/INQBIZcompetitionlogo.png" alt="探究部門"></figure>
-          <div class="Department_exp">
-            <h2>探究部門</h2>
-            <p>現代を生きる高校生の豊かな発想力を育む。</p>
-          </div>
-        </article>
+        <ul>
+          <li>
+            <figure><img src="images/INQBIZcompetitionlogo.png" alt="ビジネス部門"></figure>
+            <div class="Department_exp">
+              <h2>ビジネス部門</h2>
+              <p>未来を担う高校生の起業家精神を推進する。</p>
+            </div>
+          </li>
+          <li>
+            <figure><img src="images/INQBIZcompetitionlogo.png" alt="探究部門"></figure>
+            <div class="Department_exp">
+              <h2>探究部門</h2>
+              <p>現代を生きる高校生の豊かな発想力を育む。</p>
+            </div>
+          </li>
+        </ul>
       </section><!-- /#Department -->
 
       <section id="information">
@@ -149,12 +151,17 @@
         <!-- 表示形式をテキストor画像にするかは要検討 -->
       </section><!-- /#Schedule -->
       
-      <div class="Entry">
-        <h1 id="Entry">エントリー</h1>
+      <div id="Entry1">
+        <h1>エントリー</h1>
         <p><b>Entry</b></p>
         <p>1〜6人のグループもしくは個人での応募をお願いします。出場条件は2027年の現時点で高校3年生、高校2年生、高校1年生のいずれかに該当していることです。</p>
-        <a href=""><p>エントリーする</p></a>
+        <div class="Entry_button">
+          <a href=""><p><b>エントリーする</b></p></a>
+        </div>
         <!--Google formなどの申し込みフォームリンク必須-->
+        <div class="HowtoJudge_button">
+          <a href=""><p><b>審査方法</b></p></a>
+        </div>
       </div><!-- /.Entry -->
       
       <section id="FAQ">
@@ -179,78 +186,64 @@
         <p><b>Judging Criteria</b></p>
         <section class="Business_dep">
           <h2>ビジネス部門</h2>
-          <article>
-            <img src="images/">
-            <h3>アントレプレナー</h3>
-            <p><b>起業家としての姿勢・チャレンジ精神があるかを実際の調査・実践度合いで評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>持続可能性</h3>
-            <p><b>ビジネスプランが長期的に継続・成長することができるのか収支計画の面で評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>実現可能性</h3>
-            <p><b>アイデアが現実的に実行可能かどうか、具体的な技術や根拠があるかで判断する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>ターゲティング</h3>
-            <p><b>顧客・市場が想定されているか、そのターゲットに合ったビジネスプランになっているかを評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>独自性</h3>
-            <p><b>スライドの構成・話し方・プレゼンの工夫などプラン内容ではなく発表のクオリティを評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>発表の完成度</h3>
-            <p><b>既存のビジネスとの差別化や、独自的な視点・発想がビジネスプランに組み込まれているかを評価する。</b></p>
-          </article>
+          <ul>
+            <li>
+              <h2>アントレプレナー</h2>
+              <p><b>起業家としての姿勢・チャレンジ精神があるかを実際の調査・実践度合いで評価する。</b></p>
+            </li>
+            <li>
+              <h2>持続可能性</h2>
+              <p><b>ビジネスプランが長期的に継続・成長することができるのか収支計画の面で評価する。</b></p>
+            </li>
+            <li>
+              <h2>実現可能性</h2>
+              <p><b>アイデアが現実的に実行可能かどうか、具体的な技術や根拠があるかで判断する。</b></p>
+            </li>
+            <li>
+              <h2>ターゲティング</h2>
+              <p><b>顧客・市場が想定されているか、そのターゲットに合ったビジネスプランになっているかを評価する。</b></p>
+            </li>
+            <li>
+              <h2>独自性</h2>
+              <p><b>スライドの構成・話し方・プレゼンの工夫などプラン内容ではなく発表のクオリティを評価する。</b></p>
+            </li>
+            <li>
+              <h2>発表の完成度</h2>
+              <p><b>既存のビジネスとの差別化や、独自的な視点・発想がビジネスプランに組み込まれているかを評価する。</b></p>
+            </li>
+          </ul>
         </section>
 
         <section class="Inquiry_dep">
           <h2>探究部門</h2>
-          <article>
-            <img src="images/">
-            <h3>クリエイティビティ</h3>
-            <p><b>社会に対する新たな価値を示すことができているか、アイデアの創造性・独創性をもとに評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>アイデアの独自性</h3>
-            <p><b>どれだけ既存のものと差別化できているか、競合との差別点などを元に評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>実用的な価値</h3>
-            <p><b>そのアイデアが実用的な価値を持っているか、実例や実施想定をもとに評価する。</b></p>
-          </article>
-
-          <article>
-            <img src="images/">
-            <h3>実現可能性</h3>
-            <p><b>そのアイデアが現実的に実行可能かどうか、資金面や技術、社会性の面で評価する。</b></p>
-          </article>
+          <ul>
+            <li>
+              <h2>クリエイティビティ</h2>
+              <p><b>社会に対する新たな価値を示すことができているか、アイデアの創造性・独創性をもとに評価する。</b></p>
+            </li>
+            <li>
+              <h2>アイデアの独自性</h2>
+              <p><b>どれだけ既存のものと差別化できているか、競合との差別点などを元に評価する。</b></p>
+            </li>
+            <li>
+              <h2>実用的な価値</h2>
+              <p><b>そのアイデアが実用的な価値を持っているか、実例や実施想定をもとに評価する。</b></p>
+            </li>
+            <li>
+              <h2>実現可能性</h2>
+              <p><b>そのアイデアが現実的に実行可能かどうか、資金面や技術、社会性の面で評価する。</b></p>
+            </li>
+          </ul>
         </section>
       </section><!-- /#JudgingCriteria -->
 
-      <div class="Entry">
-        <a href=""><p>エントリーする</p></a>
+      <div id="Entry2">
+        <a href=""><p><b>エントリーする</b></p></a>
         <!--Google formなどの申し込みフォームリンク必須-->
       </div><!-- /.Entry -->
 
       <section id="sns_links">
-        <h3>フォローをお願いします！</h3>
+        <h2>フォローをお願いします！</h2>
         <nav>
           <ul>
             <li><a href="https://www.instagram.com/inqubiz"><img src="images/InstagramLogo-White.svg" alt="Instagram"></a></li>
