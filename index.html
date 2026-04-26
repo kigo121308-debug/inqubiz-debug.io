@@ -7,12 +7,19 @@
     <title>INQUBIZビジネスコンテスト｜埼玉ユースイノベーション機構</title>
     <meta name="description" content="埼玉ユースイノベーション機構が運営するinQubizビジネスコンテスト公式サイトです。">
     <meta name="keywords" content="埼玉ユースイノベーション機構,inQubiz,ビジネスコンテスト,ビジコン,部門,探究,ビジネス,アイデア,アイディア,発想,交流,起業,きっかけ,原体験,高校生,学生,お申し込み,審査">
-    <!-- <link rel="stylwsheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
       <h1 class="logo"><a href="index.html"><img src="images/INQBIZlogo.png" alt="inQubizlogo"></a></h1>
+      
+      <button class="Menu_btn" type="button">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </button>
+
       <nav class="header_menu">
         <ul class="header_nav">
           <li><a href="#TOP">TOP</a></li>
@@ -42,6 +49,7 @@
        <section id="WhatisinQubiz">
         <h1>inQubizとは？</h1>
         <p><b>What is inQubiz</b></p>
+        <!-- <span class="section_border"></span> -->
         <h1>探究・ビジネスのきっかけを提供します。</h1>
         <p>私たちは、埼玉県の高校生だけで結成された、埼玉県の高校生にビジネスの機会を提供するための集団です。<br>inQbizもその活動の一環として発足されたビジネスコンテストで、高校生に探求・ビジネスのきっかけや、原体験を提供することを目的としています。</p></div>
         <img src="images/WhatisINQUBIZ.png" alt="inQubizとは">
@@ -52,30 +60,34 @@
         <p><b>Our mission</b></p>
         <ul id="mission_list">
           <li class="mission_listmix">
-            <h1 class="mission_list_num">1</h1>
+            <h1>1</h1>
+            <span class="mission_listnum_border"></span>
             <div class="mission_list_exp">
-              <h2>高校生に起業に興味を持ってもらうきっかけとなる</h2>
+              <h3>高校生に起業に興味を持ってもらうきっかけとなる</h3>
               <p>コンテストを通じて、学生の企業に対しての興味・関心の向上を促す。</p>
             </div>
           </li>
           <li class="mission_listmix">
-            <h1 class="mission_list_num">2</h1>
+            <h1>2</h1>
+            <span class="mission_listnum_border"></span>
             <div class="mission_list_exp">
-              <h2>学生同士の交流を活性化する</h2>
+              <h3>学生同士の交流を活性化する</h3>
             <p>企業を目指す学生だけでなく、全ての学生の創造的な活動を促す。</p>
             </div>
           </li>
           <li class="mission_listmix">
-            <h1 class="mission_list_num">3</h1>
+            <h1>3</h1>
+            <span class="mission_listnum_border"></span>
             <div class="mission_list_exp">
-              <h2>学生による今後の洗礼を施す大会になる</h2>
+              <h3>学生による今後の洗礼を施す大会になる</h3>
             <p>大企業や教師などの大人の主催ではなく、学生が主催することで参加への敷居を低くし、学生の参加数を増やす。</p>
             </div>
           </li>
           <li class="mission_listmix">
-            <h1 class="mission_list_num">4</h1>
+            <h1>4</h1>
+            <span class="mission_listnum_border"></span>
             <div class="mission_list_exp">
-              <h2>アイディア発想などの機会となる</h2>
+              <h3>アイデア発想などの機会となる</h3>
             <p>このコンテストを第一歩とし、埼玉県での学生の活動を活発にする。</p>
             </div> 
           </li>
@@ -156,7 +168,7 @@
         <p><b>Entry</b></p>
         <p>1〜6人のグループもしくは個人での応募をお願いします。出場条件は2027年の現時点で高校3年生、高校2年生、高校1年生のいずれかに該当していることです。</p>
         <div class="Entry_button">
-          <a href=""><p><b>エントリーする</b></p></a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1k-BjVcP8KxkFSUjq8zdFpk4SPHOHYbqsTihoOIkntEdcw/viewform" target="_blank"><p><b>エントリーする</b></p></a>
         </div>
         <!--Google formなどの申し込みフォームリンク必須-->
         <div class="HowtoJudge_button">
@@ -167,20 +179,41 @@
       <section id="FAQ">
         <h1>よくあるご質問</h1>
         <p><b>FAQ</b></p>
+
         <div class="FAQ_item">
-          <button class="FAQ_question">どのような人が応募できますか？</button>
-          <div class="FAQ_answer">応募には条件がございます。ご確認の上、ご応募ください。</div>
+          <div class="FAQ_Question_wrap">
+            <p class="FAQ_Question_title">どのような人が応募できますか？</p>
+            <span class="minus_icon"></span>
+            <span class="plus_icon"></span>
+          </div>
+          <div class="FAQ_Answer_wrap">
+            <p class="FAQ_Answer_text">応募には条件がございます。ご確認の上、ご応募ください。</p>
+          </div>
         </div>
+
         <div class="FAQ_item">
-          <button class="FAQ_question">複数の学校で構成されたグループでの応募は可能ですか？</button>
-          <div class="FAQ_answer">応募可能です。</div>
+          <div class="FAQ_Question_wrap">
+            <p class="FAQ_Question_title">複数の学校で構成されたグループでの応募は可能ですか？</p>
+            <span class="minus_icon"></span>
+            <span class="plus_icon"></span>
+          </div>
+          <div class="FAQ_Answer_wrap">
+            <p class="FAQ_Answer_text">応募可能です。</p>
+          </div>
         </div>
+
         <div class="FAQ_item">
-          <button class="FAQ_question">他のビジネスプランコンテストへ同時に応募してもよいですか？</button>
-          <div class="FAQ_answer">同時に応募することは差し支えありません。</div>
+          <div class="FAQ_Question_wrap">
+            <p class="FAQ_Question_title">他のビジネスプランコンテストへ同時に応募してもよいですか？</p>
+            <span class="minus_icon"></span>
+            <span class="plus_icon"></span>
+          </div>
+          <div class="FAQ_Answer_wrap">
+            <p class="FAQ_Answer_text">同時に応募することは差し支えありません。</p>
+          </div>
         </div>
       </section><!-- /#FAQ -->
-      
+
       <section id="JudgingCriteria">
         <h1>審査基準</h1>
         <p><b>Judging Criteria</b></p>
@@ -239,7 +272,7 @@
 
       <div id="Entry2">
         <div class="Entry2_button">
-          <a href=""><p><b>エントリーする</b></p></a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1k-BjVcP8KxkFSUjq8zdFpk4SPHOHYbqsTihoOIkntEdcw/viewform" target="_blank"><p><b>エントリーする</b></p></a>
           <!--Google formなどの申し込みフォームリンク必須-->
         </div>
       </div><!-- /.Entry -->
@@ -247,10 +280,9 @@
       <section id="sns_links">
         <h2>フォローをお願いします！</h2>
         <nav>
-          <ul>
-            <li><a href="https://www.instagram.com/inqubiz"><img src="images/InstagramLogo-White.svg" alt="Instagram"></a></li>
-            <li><a href="https://x.com/InQubizofficial"><img src="images/XLogo-White.svg" alt="X"></a></li>
-          </ul>
+            <a href="https://www.instagram.com/inqubiz"><img src="images/InstagramLogo-White.svg" alt="Instagram"></a>
+            <span class="sns_linksborder"></span>
+            <a href="https://x.com/InQubizofficial"><img src="images/XLogo-White.svg" alt="X"></a>
         </nav>
       </section>
 
@@ -279,4 +311,3 @@
     <script src="js/jquery/jquery-4.0.0.min.js"></script>
   </body>
 </html>
-
