@@ -1,8 +1,22 @@
 'use strict'
 
-const FAQ_question = document.getElementById('FAQ_question');
-const FAQ_answer = document.getElementById('FAQ_answer');
+// FAQ
+document.addEventListener('DOMContentLoaded', function () {
+  const faqItems = document.querySelectorAll('.FAQ_item');
 
-FAQ_question.addEventListener('click', () => {
-    FAQ_answer.classList.toggle('appear');
+  faqItems.forEach(item => {
+    const questionWrap = item.querySelector('.FAQ_Question_wrap');
+    const answerWrap = item.querySelector('.FAQ_Answer_wrap');
+    const plusIcon = item.querySelector('.plus_icon');
+
+    questionWrap.addEventListener('click', () => {
+      // 回答表示の切り替え
+      answerWrap.classList.toggle('active');
+
+      // アイコンの切り替え
+      plusIcon.classList.toggle('active');
+    });
+  });
 });
+
+// FAQここまで
