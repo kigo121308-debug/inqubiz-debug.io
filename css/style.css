@@ -594,6 +594,23 @@ footer p small {
   line-height: 30px;
 }
 
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .nav_items {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav_items {
+    width: 50%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   
   header {
@@ -620,7 +637,6 @@ footer p small {
   }
 
   .nav_items {
-    width: 80%;
     display: flex;
     align-items: center;
     height: initial;
@@ -628,12 +644,13 @@ footer p small {
   }
 
   .nav-items {
-   padding-top: inherit;
-   padding-bottom: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit;
   }
 
   .nav-items_item a {
-   margin-bottom: 0;
+    margin-bottom: 0;
+    font-size: 17px;
   }
 
   .Ham_Num {
@@ -645,30 +662,47 @@ footer p small {
   }
 
   .nav-items_item {
-  padding-bottom: 5px;
-  position: relative;
-}
-.nav-items_item::before {
-  background: #000;
-  content: '';
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform-origin: left top;
-  transform: scale(0, 1);
-  transition: transform .45s;
-}
-.nav-items_item:hover::before {
-  transform-origin: left top;
-  transform: scale(1, 1);
-}
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  .nav-items_item::before {
+    background: #000;
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform-origin: left top;
+    transform: scale(0, 1);
+    transition: transform .45s;
+  }
+
+  .nav-items_item:hover::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
 
   #key_visual {
-  width: 100%;
-  margin-top: 90px;
-}
+    width: 100%;
+    margin-top: 90px;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    width: 200px;
+    margin: 0 10px;
+    font-size: 17px;
+    transition: .3s;
+  }
+
+  footer ul li:hover {
+    background: #fff;
+  }
+
+  footer ul li:hover a {
+    color: #000;
+    }
 
 }
-
