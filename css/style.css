@@ -198,6 +198,8 @@ main {
 #key_visual {
   width: 100%;
   margin-top: 70px;
+  max-width: 1000px;
+    margin: 0 auto;
 }
 
 #key_visual video {
@@ -209,6 +211,8 @@ main {
   position: relative;
   width: 100%;
   padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
 }
 
 #WhatisinQubiz p {
@@ -222,6 +226,8 @@ main {
 
 #Ourmission {
   padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -267,6 +273,12 @@ main {
 #Department {
   padding-bottom: 10px;
   text-align: center;
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+#Department ul {
+  margin-top: 10px;
 }
 
 #Department ul li {
@@ -283,6 +295,8 @@ main {
 
 #information {
   padding: 15px;
+  max-width: 1000px;
+    margin: 0 auto;
 }
 
 #information ul li {
@@ -316,6 +330,8 @@ main {
 
 #Entry1 {
   padding: 20px 20px 10px 20px;
+  max-width: 1000px;
+    margin: 0 auto;
 }
 
 .Entry_button {
@@ -454,6 +470,7 @@ main {
 
 #JudgingCriteria {
   margin-top: 20px;
+  margin-bottom: 15px;
   padding-top: 50px;
   background-color: #000;
   color: #fff;
@@ -504,7 +521,7 @@ main {
 }
 
 #Entry2 {
-  margin: 15px 20px 15px 20px;
+  margin: 0 20px;
   padding-bottom: 3px;
   border: 1px solid #000;
   border-radius: 43px;
@@ -519,6 +536,7 @@ main {
 }
 
 #sns_links {
+  margin-top: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -592,11 +610,6 @@ footer p small {
   height: 30px;
   font-size: 10px;
   line-height: 30px;
-}
-
-main {
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -689,6 +702,44 @@ main {
     margin-top: 90px;
   }
   
+  #Department ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Entry_button {
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .HowtoJudge_button {
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #Entry2 {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #sns_links {
+    padding: 40px 0;
+  }
+
+  #sns_links nav {
+    margin-top: 10px;
+  }
+
+  .sns_linksborder {
+    height: 50px;
+  }
+
+  #sns_links img {
+    height: 50px;
+  }
+
   footer ul li {
     display: inline-block;
     width: 200px;
@@ -706,3 +757,4 @@ main {
     }
 
 }
+
