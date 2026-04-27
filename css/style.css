@@ -40,9 +40,24 @@ h1,h2,h3,p {
 }
 
 header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  width: 100%;
   height: 60px;
   border-bottom: solid 1px #cccccc;
+  z-index: 999;
+}
+
+.header_inner {
+  padding:0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  position: relative;
 }
 
 .logo {
@@ -60,12 +75,121 @@ header .logo {
   height: 40px;
 }
 
-
-
 header nav {
-  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-bottom-left-radius: 45px;
+  transform: translateX(100%);
+  background: #fffffff2;
+  transition: ease .4s;
 }
 
+.Header_Ham_Num {
+  width: 48px;
+  height: 100%;
+}
+
+.Ham_Num {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  border-color: transparent;
+  z-index: 9999;
+}
+
+.Ham_Num span {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  position: relative;
+  transition: ease .4s;
+  display: block;
+}
+
+.Ham_Num span:nth-child(1) {
+  top: 0;
+}
+
+.Ham_Num span:nth-child(2) {
+  margin: 8px 0;
+}
+
+.Ham_Num span:nth-child(3) {
+  top: 0;
+}
+
+header nav.active {
+  transform: translateX(0);
+}
+
+.Ham_Num.active span:nth-child(1) {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.Ham_Num.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.Ham_Num.active span:nth-child(3) {
+  top: -13px;
+  transform: rotate(-45deg);
+}
+
+.header_menu.active {
+  transform: translateX(0)
+}
+
+.Ham_Num.active span:nth-child(1) {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.Ham_Num.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.Ham_Num.active span:nth-child(3) {
+  top: -13px;
+  transform: rotate(-45deg);
+}
+
+.nav-items {
+  padding-top: 80px;
+}
+
+.nav-items_item a {
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.header_nav_sns ul {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_nav_sns .sns_linksborder {
+  position: absolute;
+  height: 30px;
+  width: 3px;
+  background: #000;
+}
+
+.header_nav_sns img {
+  height: 30px;
+}
 
 main {
   width: 100%;
@@ -73,20 +197,13 @@ main {
 
 #key_visual {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 #key_visual video {
   width: 100%;
   border-radius: 13px;
 }
-
-/* .section_border {
-  position: absolute;
-  width: 40px;
-  height: 4px;
-  background: #000;
-} */
 
 #WhatisinQubiz {
   position: relative;
@@ -484,30 +601,74 @@ footer p small {
   }
 
   header .logo {
-    top: 15px;
-    left: 25px;
-    height: 50px;
-  }
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+}
+
 
   header nav {
-    display: block;
-    position: absolute;
-    top: 21px;
-    right: 0;
+    position: static;
+    transform: initial;
+    background-color: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    border-left: none;
+    border-bottom: none;
   }
 
-  header nav ul {
-    padding-right: 20px;
+  .nav_items {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: initial;
+    justify-content: space-evenly;
   }
 
-  header nav ul li {
-    display: inline-block;
-    font-size: 17px;
-    line-height: 35px;
+  .nav-items {
+   padding-top: inherit;
+   padding-bottom: inherit;
+  }
+
+  .nav-items_item a {
+   margin-bottom: 0;
+  }
+
+  .Ham_Num {
+    display: none;
   }
 
   .header_nav_sns {
     display: none;
   }
 
+  .nav-items_item {
+  padding-bottom: 5px;
+  position: relative;
 }
+.nav-items_item::before {
+  background: #000;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: left top;
+  transform: scale(0, 1);
+  transition: transform .45s;
+}
+.nav-items_item:hover::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+  #key_visual {
+  width: 100%;
+  margin-top: 90px;
+}
+
+}
+
