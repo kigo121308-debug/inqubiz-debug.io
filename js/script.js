@@ -1,4 +1,14 @@
-'use strict'
+'use strict';
+
+// HamMenu
+const ham = document.querySelector('#js_Ham');
+const nav = document.querySelector('#js_Nav');
+
+ham.addEventListener('click', function() {
+  ham.classList.toggle('active');
+  nav.classList.toggle('active');
+});
+// HamMenuここまで
 
 // FAQ
 document.addEventListener('DOMContentLoaded', function () {
