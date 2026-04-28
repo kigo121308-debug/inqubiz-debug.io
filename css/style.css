@@ -211,8 +211,10 @@ main {
   position: relative;
   width: 100%;
   padding-bottom: 10px;
+  margin-top: 70px;
   max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #WhatisinQubiz p {
@@ -273,8 +275,10 @@ main {
 #Department {
   padding-bottom: 10px;
   text-align: center;
+  margin-top: 70px;
   max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #Department ul {
