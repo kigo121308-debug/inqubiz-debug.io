@@ -199,12 +199,12 @@ main {
   width: 100%;
   margin-top: 70px;
   max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #key_visual video {
   width: 100%;
-  border-radius: 13px;
 }
 
 #WhatisinQubiz {
@@ -568,7 +568,7 @@ main {
 }
 
 #Management img {
-  width: 100%;
+  height: 50px;
   padding-bottom: 20px;
 }
 
