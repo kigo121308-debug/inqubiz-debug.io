@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+#WhatisinQubiz {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 70px;
+  display: block;
+  text-align: center;
+}
+
+#WhatisinQubiz p {
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#WhatisinQubiz img {
+  width: 100%;
+}
+
+.WhatisinQubiz_More {
+  padding-top: 10px;
+}
+
+.WhatisinQubiz_More a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 43px;
+  background-color: #000;
+  padding: 10px 80px 10px 80px;
+  box-shadow: 0 3px 0 #a8a8a8;
+}
+
+#Ourmission {
+  padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+#Ourmission ul li {
+  border: 2px solid #000;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+#Ourmission ul li + li {
+  margin-top: 15px;
+}
+
+.mission_listmix {
+  position: relative;
+}
+
+.mission_listmix h1 {
+  position: absolute;
+  padding-left: 15px;
+}
+
+.mission_listnum_border {
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.mission_list_exp h3 {
+  padding-top: 10px;
+  padding-left: 63px;
+  text-align: left;
+}
+
+.mission_list_exp p {
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+#Department {
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 70px;
+  max-width: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#Department ul {
+  margin-top: 10px;
+}
+
+#Department ul li {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Department ul li img {
+  width: 100%;
+  border: solid 2px #000;
+  border-radius: 18px;
+}
+
+.Contest_Merit {
+  padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Contest_Merit ul li {
+  border: 2px solid #000;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+.Contest_Merit ul li + li {
+  margin-top: 15px;
+}
+
+.Contest_Meritlistmix {
+  position: relative;
+}
+
+.Contest_Meritlistmix h1 {
+  position: absolute;
+  padding-left: 15px;
+}
+
+.Contest_Meritlist_exp h2 {
+  padding-top: 10px;
+  padding-left: 63px;
+  text-align: left;
+}
+
+.Contest_Meritlist_exp p {
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+.Merit_listborder {
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.Participant_Support {
+  padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Participant_Support ul li {
+  border: 2px solid #000;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+.Participant_Support ul li + li {
+  margin-top: 15px;
+}
+
+.Support_listmix {
+  position: relative;
+}
+
+.Support_listmix h1 {
+  position: absolute;
+  padding-left: 15px;
+}
+
+.Support_list_exp h2 {
+  padding-top: 10px;
+  padding-left: 63px;
+  text-align: left;
+}
+
+.Support_list_exp p {
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+.Support_listborder {
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.About_Entry {
+  padding: 0 20px;
+  padding-bottom: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.About_Entry h2 {
+  margin: 30px 0;
+}
+
+.About_Entry a {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 43px;
+  background-color: #000;
+  padding: 10px 80px 10px 80px;
+  box-shadow: 0 3px 0 #a8a8a8;
+}
+
+@media screen and (min-width: 768px) {
+  #Department ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+}
