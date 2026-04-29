@@ -9,6 +9,9 @@
     <meta name="keywords" content="埼玉ユースイノベーション機構,inQubiz,ビジネスコンテスト,ビジコン,部門,探究,ビジネス,アイデア,アイディア,発想,交流,起業,きっかけ,原体験,高校生,学生,お申し込み,審査">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/WhatisinQubiz.css">
+    <link rel="stylesheet" href="css/Entry.css">
+    <link rel="stylesheet" href="css/JudgingDetail.css">
   </head>
   <body>
     <header>
@@ -25,8 +28,8 @@
           <ul class="header_nav nav_items nav-items">
             <li class="nav-items_item"><a href="#">TOP</a></li>
             <li class="nav-items_item"><a href="WhatisinQubiz.html">inQubizとは？</a></li>
-            <li class="nav-items_item"><a href="Department.html">部門</a></li>
             <li class="nav-items_item"><a href="#Schedule">今後の日程</a></li>
+            <li class="nav-items_item"><a href="#Contact">お問い合わせ</a></li>
           </ul>
           <div class="header_nav_sns">
           <ul>
@@ -41,12 +44,21 @@
 
     <main>
 
-      <div id="key_visual">
+      <!-- <div id="key_visual">
         <video autoplay muted loop poster="images/169動画ファイル貼り付け位置.png">
           <source src="videos/aiueo.mp4.MP4">
-        </video>
+        </video> -->
       <!-- タイトル文字は白の太字で、動画自体は薄暗く！！　※CSSからフィルターをかけてあげれば動画編集者の負担減<=できれば実装したい -->
-      </div><!-- /#key_visual -->
+      <!-- </div>/#key_visual -->
+
+      <section id="WhatisinQubiz">
+        <h1>inQubizとは？</h1>
+        <p><b>What is inQubiz</b></p>
+        <h1>探究・ビジネスのきっかけを提供します。</h1>
+        <p>私たちは、埼玉県の高校生だけで結成された、埼玉県の高校生にビジネスの機会を提供するための集団です。<br>inQbizもその活動の一環として発足されたビジネスコンテストで、高校生に探求・ビジネスのきっかけや、原体験を提供することを目的としています。</p></div>
+        <img src="images/WhatisINQUBIZ.png" alt="inQubizとは">
+        <p class="WhatisinQubiz_More"><a href="WhatisinQubiz.html">More</a></p>
+      </section><!-- /#WhatisinQubiz -->
 
       <section id="information">
         <h1>ニュース</h1>
@@ -96,19 +108,6 @@
         <!-- 表示形式をテキストor画像にするかは要検討 -->
       </section><!-- /#Schedule -->
       
-      <div id="Entry1">
-        <h1>エントリー</h1>
-        <p><b>Entry</b></p>
-        <p>1〜6人のグループもしくは個人での応募をお願いします。出場条件は2027年の現時点で高校3年生、高校2年生、高校1年生のいずれかに該当していることです。</p>
-        <div class="Entry_button">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1k-BjVcP8KxkFSUjq8zdFpk4SPHOHYbqsTihoOIkntEdcw/viewform" target="_blank"><p><b>プレエントリーする</b></p></a>
-        </div>
-        <!--Google formなどの申し込みフォームリンク必須-->
-        <div class="HowtoJudge_button">
-          <a href=""><p><b>審査方法</b></p></a>
-        </div>
-      </div><!-- /.Entry -->
-      
       <section id="FAQ">
         <h1>よくあるご質問</h1>
         <p><b>FAQ</b></p>
@@ -137,6 +136,17 @@
 
         <div class="FAQ_item">
           <div class="FAQ_Question_wrap">
+            <p class="FAQ_Question_title">参加費はかかりますか？</p>
+            <span class="minus_icon"></span>
+            <span class="plus_icon"></span>
+          </div>
+          <div class="FAQ_Answer_wrap">
+            <p class="FAQ_Answer_text">参加費はございません。無料でご応募いただけます。</p>
+          </div>
+        </div>
+
+        <div class="FAQ_item">
+          <div class="FAQ_Question_wrap">
             <p class="FAQ_Question_title">他のビジネスプランコンテストへ同時に応募してもよいですか？</p>
             <span class="minus_icon"></span>
             <span class="plus_icon"></span>
@@ -147,85 +157,61 @@
         </div>
       </section><!-- /#FAQ -->
 
-      <section id="JudgingCriteria">
-        <h1>審査基準</h1>
-        <p><b>Judging Criteria</b></p>
-        <section class="Business_dep">
-          <h2>ビジネス部門</h2>
-          <ul>
-            <li>
-              <h2>アントレプレナー</h2>
-              <p><b>起業家としての姿勢・チャレンジ精神があるかを実際の調査・実践度合いで評価する。</b></p>
-            </li>
-            <li>
-              <h2>持続可能性</h2>
-              <p><b>ビジネスプランが長期的に継続・成長することができるのか収支計画の面で評価する。</b></p>
-            </li>
-            <li>
-              <h2>実現可能性</h2>
-              <p><b>アイデアが現実的に実行可能かどうか、具体的な技術や根拠があるかで判断する。</b></p>
-            </li>
-            <li>
-              <h2>ターゲティング</h2>
-              <p><b>顧客・市場が想定されているか、そのターゲットに合ったビジネスプランになっているかを評価する。</b></p>
-            </li>
-            <li>
-              <h2>独自性</h2>
-              <p><b>スライドの構成・話し方・プレゼンの工夫などプラン内容ではなく発表のクオリティを評価する。</b></p>
-            </li>
-            <li>
-              <h2>発表の完成度</h2>
-              <p><b>既存のビジネスとの差別化や、独自的な視点・発想がビジネスプランに組み込まれているかを評価する。</b></p>
-            </li>
-          </ul>
-        </section>
-
-        <section class="Inquiry_dep">
-          <h2>探究部門</h2>
-          <ul>
-            <li>
-              <h2>クリエイティビティ</h2>
-              <p><b>社会に対する新たな価値を示すことができているか、アイデアの創造性・独創性をもとに評価する。</b></p>
-            </li>
-            <li>
-              <h2>アイデアの独自性</h2>
-              <p><b>どれだけ既存のものと差別化できているか、競合との差別点などを元に評価する。</b></p>
-            </li>
-            <li>
-              <h2>実用的な価値</h2>
-              <p><b>そのアイデアが実用的な価値を持っているか、実例や実施想定をもとに評価する。</b></p>
-            </li>
-            <li>
-              <h2>実現可能性</h2>
-              <p><b>そのアイデアが現実的に実行可能かどうか、資金面や技術、社会性の面で評価する。</b></p>
-            </li>
-          </ul>
-        </section>
-      </section><!-- /#JudgingCriteria -->
-
-      <div id="Entry2">
-        <div class="Entry2_button">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1k-BjVcP8KxkFSUjq8zdFpk4SPHOHYbqsTihoOIkntEdcw/viewform" target="_blank"><p><b>エントリーする</b></p></a>
-          <!--Google formなどの申し込みフォームリンク必須-->
+      <section class="Reward">
+        <h1>各部門賞について</h1>
+        <p><b>※いずれもAmazonギフト券でのお渡しになります。</b></p>
+        <div class="Reward_img">
+          <img src="images/RewardInqdep.png" alt="探究部門賞">
+          <img src="images/RewardBusdep.png" alt="ビジネス部門賞">
         </div>
+          <img class="RewardAud" src="images/RewardAudience.png" alt="オーディエンス賞">
+      </section>
+
+      <div id="Entry1">
+        <h1>エントリー</h1>
+        <p><b>Entry</b></p>
+        <h2 class="entry1_exp">進め、アイデアを武器に</h2>
+        <div class="Entry_button">
+          <a href="Entry.html"><p><b>エントリーする</b></p></a>
+        </div>
+        <!--Google formなどの申し込みフォームリンク必須-->
       </div><!-- /.Entry -->
 
       <section id="sns_links">
         <h2>フォローをお願いします！</h2>
         <nav>
-            <a href="https://www.instagram.com/inqubiz"><img src="images/InstagramLogo-White.svg" alt="Instagram"></a>
+            <a href="https://www.instagram.com/inqubiz" target="_blank"><img src="images/InstagramLogo-White.svg" alt="Instagram"></a>
             <span class="sns_linksborder"></span>
-            <a href="https://x.com/InQubizofficial"><img src="images/XLogo-White.svg" alt="X"></a>
+            <a href="https://x.com/InQubizofficial" target="_blank"><img src="images/XLogo-White.svg" alt="X"></a>
+        </nav>
+      </section>
+
+      <section id="Contact">
+        <h1>お問い合わせ</h1>
+        <p><b>Contact</b></p>
+        <p class="Con_exp">本大会について何か不明なことがございましたら、以下の手段を通じてお問い合わせをお願いします。</p>
+        <nav>
+          <ul class="Contact_li">
+            <li">
+              <h2>Mail</h2>
+              <p>info.inqubiz@gmail.com</p>
+            </li>
+            <h2>Form</h2>
+            <li class="Con_Form">
+              <img src="images/Form_icon.svg" alt="Form">
+              <p><a href="https://forms.gle/ePqwcwbjR7kjoTkC9" target="_blank"><b>Formへ</b></a></p>
+            </li>
+          </ul>
         </nav>
       </section>
 
       <section id="Management">
         <h2>運営</h2>
-        <img src="images/suioblack.png" alt="運営">
+        <img src="images/SuioFullWhite.PNG" alt="運営">
         <ul>
           <li><p>[所在地] 〒</p></li>
           <li><p>[Mail] info.inqubiz@gmail.com</p></li>
-          <li><p>[代表] 田中　太郎</p></li>
+          <li><p>[代表] 齋藤 政人</p></li>
         </ul>
       </section>
     </main>
@@ -234,8 +220,8 @@
       <ul>
         <li><a href="#">TOP</a></li>
         <li><a href="WhatisinQubiz.html">inQubizとは？</a></li>
-        <li><a href="Department.html">部門</a></li>
         <li><a href="#Schedule">今後の日程</a></li>
+        <li><a href="#Contact">お問い合わせ</a></li>
       </ul>
       <p class="copyright"><small>&copy; 2026 INQUBIZ All Rights Reserved</small></p>
     </footer>
