@@ -1,5 +1,126 @@
 @charset "UTF-8";
 
+.About_Judging {
+  margin-top: 70px;
+  padding: 10px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.About_Judging ul li {
+  border: 2px solid #000;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+.About_Judging ul li + li {
+  margin-top: 15px;
+}
+
+.Judging_listmix {
+  position: relative;
+}
+
+.Judging_listmix h1 {
+  position: absolute;
+  padding-left: 15px;
+}
+
+.Judging_list_exp h2 {
+  padding-top: 7px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+.Judging_list_exp p {
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+.Judging_listborder {
+  position: absolute;
+  top: 12px;
+  left: 85px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.Judging_Flist_exp h2 {
+  padding-top: 7px;
+  padding-left: 90px;
+  text-align: left;
+}
+
+.Judging_Flistborder {
+  position: absolute;
+  top: 12px;
+  left: 75px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.Judging_Llist_exp h2 {
+  padding-top: 7px;
+  padding-left: 115px;
+  text-align: left;
+}
+
+.Judging_Llistborder {
+  position: absolute;
+  top: 12px;
+  left: 102px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
+.Judging_Method {
+  padding-bottom: 10px;
+  max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Judging_Method ul li {
+  border: 2px solid #000;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+.Judging_Method ul li + li {
+  margin-top: 15px;
+}
+
+.Method_listmix {
+  position: relative;
+}
+
+.Method_listmix h1 {
+  position: absolute;
+  padding-left: 15px;
+}
+
+.Method_list_exp h2 {
+  padding-top: 7px;
+  padding-left: 63px;
+  text-align: left;
+}
+
+.Method_list_exp p {
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+.Method_listborder {
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  height: 28px;
+  width: 3px;
+  background: #000;
+}
+
 #JudgingCriteria {
   margin-top: 20px;
   padding-top: 50px;
@@ -50,6 +171,23 @@
   padding-bottom: 10px;
 }
 
+.BacktoEntry {
+  padding: 20px;
+  background: #000;
+}
+
+.BacktoEntry a {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 43px;
+  background-color: #fff;
+  padding: 10px  10px ;
+  box-shadow: 0 3px 0 #a8a8a8;
+  margin: 0 100px;
+}
+
 @media screen and (min-width: 492px) {
   #JudgingCriteria ul {
     display: grid;
@@ -79,4 +217,5 @@
     grid-template-columns: repeat(3, auto);
     gap: 24px;
   }
+
 }
