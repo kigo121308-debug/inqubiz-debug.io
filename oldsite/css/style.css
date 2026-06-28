@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: medium solid;
+}
+
+.nav-App{
+  /* color: #ffffff; */
+  margin-right: 2.25rem;
+  /* background:url(../images/Applicationtop.png) no-repeat;
+  background-size: 120px; */
+  padding-left: 1.875rem;
+}
+
+.logo {
+  height: 1.5625rem;
+  margin-left: 3.125rem;
+}
+
+.main-nav {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 2.25rem;
+}
+
+
+.main-nav a:hover {
+  color: black;
+}
+
+.introduce-video {
+  text-align:center;
+}
+
+video{
+  width: 100%;
+}
+
+.WhatisINQUBIZ{
+  text-align: center;
+}
+
+.Purpose{
+  text-align: center;
+  background-color: #e7e7e7;
+  padding: 1.25rem;
+  background-clip: padding-box;
+}
+
+.Ourmission{
+  list-style: none;
+}
+
+.Ourmission h2{
+  text-align: left;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-width: medium;
+  border-style: solid;
+}
+
+.Department{
+  text-align: center;
+}
+
+.Departmentalndivision{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Departmentalndivision li {
+  width: 45%;
+}
+
+.Departmentalndivision h2{
+  text-align: left;
+}
+
+.Departmentalndivision p{
+  color:darkgrey;
+}
+
+.Schedule{
+  text-align: center;
+}
+
+.FAQ{
+  text-align: center;
+  background-color: #e7e7e7;
+  border: 0.625rem ;
+  padding: 1.25rem;
+  background-clip: padding-box;
+}
+
+.FAQ-question {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.FAQ-answer {
+  display: none;
+  padding: 0.625rem;
+  color: #555;
+  background-color: #f1f1f1;
+  border-radius: 0.25rem;
+  margin-top: 0.3125rem;
+}
+
+.JudgingCriteria{
+  color: #ffffff;
+  text-align: center;
+  width:98.95%;
+  height:50%;
+  border-radius:50% 50% 0 0;
+  background:black;
+  padding: 0.625rem;
+}
+
+.JudgingCriteria ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Application{
+  text-align: center;
+  background:black;
+  padding: 0.625rem;
+}
+.Application a{
+  color: #000000;
+}
+
+.Application h1{
+  background: url(../images/Appbotton.png) no-repeat center;
+}
+
+.sns-links{
+  color: #ffffff;
+  text-align: center;
+  background-color: #979797;
+  padding: 0.625rem;
+  background-clip: padding-box;
+}
+
+.sns-links ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 300px;
+  justify-content: space-around;
+}
+
+.Xborder{
+  border-left: thin solid;
+  border-right: thin solid;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+.information{
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.625rem;
+}
+
+.information ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.information ul li{
+  text-align: left;
+}
+
+.page-footer{
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border: 0.625rem ;
+  padding: 1.25rem;
+  background-clip: padding-box;
+}
+
+.page-footer ul{
+  margin: 0 auto;
+  max-width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-footer a{
+  color: #ffffff;
+}
+
+/* 959px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width:959px){
+  img{
+    max-width: 960px;
+  }
+}
+
+
+
+@media screen and (max-width:480px){
+  img{
+    max-width: 480px;
+  }
+}
